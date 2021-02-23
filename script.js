@@ -1,15 +1,14 @@
 // Connecting button and function
 document.getElementById('button').addEventListener('click', multiplication)
 
-let diameter = 0
-let circumference = 0
+diameter = 0
 
 function multiplication () {
-  userInput = document.getElementById('diameter').value
+  diameter = document.getElementById('diameter').value
 
-  userInput = parseInt(userInput)
+  diameter = parseInt(diameter)
 
-  response = userInput * 3.14
+  response = diameter * 3.14
 
   alert(response)
 }
